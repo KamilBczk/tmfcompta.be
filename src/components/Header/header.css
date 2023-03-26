@@ -1,0 +1,43 @@
+.header {
+  /* background-color: var(--anakiwa-b100); */
+  clear: both;
+  padding: 20px 0;
+  position: relative;
+}
+
+/* .header::after {
+  position: absolute;
+  content: ' ';
+  width: 100%;
+  height: 1px;
+  background-color: red;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.header .logo {
+  display: inline-block;
+}
+
+.header .logo img {
+  height: 50px;
+}
+
+.header .navigation {
+  float: right;
+}
+
+.header .navigation header nav ul li {
+  padding-left: 30px;
+  line-height: 53px;
+}
+
+.header .navigation header nav ul li a {
+  font-weight: 500;
+  letter-spacing: .5px;
+}
+
+.header .navigation header nav ul li a.active {
+  color: var(--prusian-blue-b300);
+}
