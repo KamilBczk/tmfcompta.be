@@ -5,6 +5,8 @@ import homeGrid1 from '../../ressource/home-grid-1.png'
 import homeGrid2 from '../../ressource/home-grid-2.png'
 import homeGrid3 from '../../ressource/home-grid-3.png'
 import homeLogo from '../../ressource/home-logo.svg'
+import homeAbout from '../../ressource/home-about.png'
+import homeOpinion from '../../ressource/home-opinion.png'
 
 
 function Home() {
@@ -68,7 +70,34 @@ function Home() {
     </div>
     <div className='section section-home-fourth'>
       <div className='container'>
-        
+        <div className='grid-2'>
+          <div className='grid-elem'>
+            <div className='center-y'>
+              <h2 className='title'>Qui sommes<span className='text-prusian-blue-b300'> nous?</span></h2>
+              <p className='p-m'>TMF compta est un bureau Lorem ipsum dolor sit amet. Hic fugiat voluptas hic iure facere cum adipisci autem qui cupiditate voluptatem est quis error aut odit quos. Sit commodi nisi ut odit quaerat et eligendi dolor est praesentium neque est quia nemo sed dolor assumenda.</p>
+            </div>
+          </div>
+          <div className='grid-elem'>
+              <img className='center-xy' src={homeAbout} alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className='section section-home-fifth bg-prusian-blue-b300'>
+      <div className='container'>
+        <div className='image-module'>
+          <div className='image-thumb'>
+            <img src={homeOpinion} alt="" />
+          </div>
+          <div className='text-box'>
+              <p className='p-s text-bold text-white-b300'>Iulius Bold</p>
+              <p className='p-xs text-italic text-white-b300'>CEO de Bild Construct SRL</p>
+          </div>
+        </div>
+        <div className='clear'></div>
+        <div className='content-box'>
+          <p className='p-m text-white-b300'>“Comptable très compétent, disponible, de bon conseil et qui fourni des explications claires. Il a pris le temps d'analyser notre situation fiscale et de corriger les erreurs des déclarations passées. Je le recommande vivement !”</p>
+        </div>
       </div>
     </div>
     </>

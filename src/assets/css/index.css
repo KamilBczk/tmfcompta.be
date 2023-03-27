@@ -36,6 +36,10 @@
   --prusian-blue-b500: #001836;
 }
 
+.clear {
+  clear: both;
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -48,6 +52,10 @@
 
 .text-prusian-blue-b300 {
   color: var(--prusian-blue-b300);
+}
+
+.text-white-b300 {
+  color: var(--white-b300);
 }
 
 .bg-prusian-blue-b300 {
@@ -66,8 +74,11 @@
   transform: translateX(-50%);
 }
 
-.text-center {
-  text-align: center;
+.center-xy {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h1.title-xl {
@@ -86,6 +97,30 @@ p.p-m {
   font-size: 25px;
   line-height: 40px;
   font-weight: 300;
+}
+
+p.p-s {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+p.p-xs {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-bold, p.text-bold {
+  font-weight: 500;
+}
+
+.text-italic {
+  font-style: italic;
 }
 
 /**
@@ -176,3 +211,45 @@ p.p-m {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.section-home-fourth .grid-2 {
+  display: grid;
+  grid-template-columns: 0.6fr 0.4fr;
+  grid-row-gap: 0px;
+  margin: 0 5%;
+}
+
+.section-home-fourth .grid-2 .grid-elem:nth-child(1) {
+  padding-right: 100px;
+}
+
+.section-home-fourth .grid-2 .grid-elem p.p-m {
+  padding-top: 50px;
+}
+
+.section-home-fourth .grid-2 .grid-elem img {
+  width: 70%;
+}
+
+.section-home-fifth .image-module {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-home-fifth .image-module img {
+  float: left;
+  max-width: 80px;
+  max-height: 80px;
+  padding-right: 30px;
+}
+
+.section-home-fifth .content-box {
+  max-width: 65%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* .section-home-fifth .image-module  */
