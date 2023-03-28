@@ -115,12 +115,45 @@ p.p-xs {
   text-align: center;
 }
 
-.text-bold, p.text-bold {
+.text-bold, h1.text-bold, p.text-bold {
   font-weight: 500;
 }
 
 .text-italic {
   font-style: italic;
+}
+
+.generic-banner {
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.generic-banner .text-box {
+  position: absolute;
+}
+
+.generic-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, rgba(0, 40, 89, 0.595) 0%, rgba(0, 40, 89, 0.85) 37.85%, rgba(0, 40, 89, 0.85) 60.85%, rgba(0, 40, 89, 0.595) 100%)
+}
+
+.generic-banner-compta {
+  background-image: url(../../ressource/background-comptabilite.png);
+}
+
+.generic-banner-contact {
+  background-image: url(../../ressource/background-contact.png);
+}
+
+.generic-banner-about {
+  background-image: url(../../ressource/background-about.png);
 }
 
 /**
@@ -253,3 +286,130 @@ p.p-xs {
 }
 
 /* .section-home-fifth .image-module  */
+
+/**
+  * About.js
+***/
+
+.section-about-first .text-box {
+  max-width: 60%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.section-about-second .container {
+}
+
+.section-about-second .ml {
+  margin-left: 10%;
+}
+
+.section-about-second .grid-2 {
+  display: grid;
+  grid-template-columns: 0.2fr 0.8fr;
+  grid-row-gap: 0px;
+  margin: 0 10%;
+  margin-top: 50px;
+}
+
+.section-about-second .grid-2 .grid-elem {
+  margin-top: 50px;
+}
+
+.section-about-second .grid-2 .text-box {
+  max-width: 70%;
+}
+
+.section-contact-first .container {
+  width: 70%;
+}
+
+.section-contact-first .grid-2 {
+  display: grid;
+  grid-template-columns: 0.6fr 0.4fr;
+  grid-row-gap: 0px;
+  margin-top: 50px;
+}
+
+.section-contact-first .grid-2 .grid-elem .mt {
+  padding-top: 40px;
+}
+
+.section-contact-first .input-container-2 {
+  display: grid;
+  grid-template-columns:0.5fr 0.5fr;
+  grid-column-gap: 10%;
+  /* width: 45%;
+  display: inline-block;
+  position: relative; */
+}
+
+/* .section-contact-first .input-container-2 .input-container:nth-child(1) {
+  padding-right: 10%;
+} */
+
+.input-container {
+  position: relative;
+  margin-top: 20px;
+}
+
+.input-container input {
+  font-size: 16px;
+  padding: 10px 0;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid var(--prusian-blue-b300);
+  outline: none;
+}
+
+.input-container label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 20px;
+  color: var(--prusian-blue-b300);
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+
+.input-container textarea {
+  font-size: 20px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid var(--prusian-blue-b300);
+  outline: none;
+  resize: none;
+}
+
+.input-container input:focus ~ label, .input-container input:valid ~ label {
+  top: -20px;
+  font-size: 16px;
+  color: var(--prusian-blue-b300);
+}
+
+.input-container textarea:focus ~ label, .input-container textarea:valid ~ label {
+  top: -20px;
+  font-size: 16px;
+  color: var(--prusian-blue-b300);
+}
+
+
+.markercluster-map {
+  height: 300px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.leaflet-div-icon {
+  background: transparent;
+  border: none;
+}
+
+/* .section-about-second .grid-2 .grid-elem:nth-child(1) {
+  background-color: yellow;
+}
+
+.section-about-second .grid-2 .grid-elem:nth-child(2) {
+  background-color: red;
+} */
