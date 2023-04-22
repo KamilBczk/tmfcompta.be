@@ -36,6 +36,10 @@
   --prusian-blue-b500: #001836;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .clear {
   clear: both;
 }
@@ -48,6 +52,11 @@
 .section {
   margin: 100px 0;
   padding: 100px 0;
+}
+
+.section-small {
+  margin: 0;
+  padding: 0;
 }
 
 .text-prusian-blue-b300 {
@@ -99,6 +108,12 @@ p.p-m {
   font-weight: 300;
 }
 
+a.p-m {
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 300;
+}
+
 p.p-s {
   font-size: 22px;
   line-height: 30px;
@@ -111,8 +126,22 @@ p.p-xs {
   font-weight: 300;
 }
 
+a.p-xs {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .text-bold, h1.text-bold, p.text-bold {
@@ -339,14 +368,28 @@ p.p-xs {
   display: grid;
   grid-template-columns:0.5fr 0.5fr;
   grid-column-gap: 10%;
-  /* width: 45%;
-  display: inline-block;
-  position: relative; */
 }
 
-/* .section-contact-first .input-container-2 .input-container:nth-child(1) {
-  padding-right: 10%;
-} */
+.section-contact-first .grid-1:nth-child(1) {
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.section-contact-first .grid-1 {
+  margin-left: 15%;
+  position: relative;
+  margin-top: 30px;
+}
+
+.section-contact-first .grid-1 img {
+  float: left;
+  height: 40px;
+  width: 40px;
+}
+
+.section-contact-first .grid-1 a, .section-contact-first .grid-1 p {
+  margin-left: 20px;
+}
 
 .input-container {
   position: relative;
@@ -380,20 +423,41 @@ p.p-xs {
   border-bottom: 2px solid var(--prusian-blue-b300);
   outline: none;
   resize: none;
+  grid-row: 300;
+  font-family: 'Roboto', sans-serif;
 }
 
-.input-container input:focus ~ label, .input-container input:valid ~ label {
+.input-container input:focus ~ label,
+.input-container input.active ~ label,
+.input-container textarea:focus ~ label,
+.input-container textarea.active ~ label {
   top: -20px;
   font-size: 16px;
   color: var(--prusian-blue-b300);
 }
 
-.input-container textarea:focus ~ label, .input-container textarea:valid ~ label {
-  top: -20px;
-  font-size: 16px;
-  color: var(--prusian-blue-b300);
+.section-contact-first .btn {
+  position: relative;
+  margin-top: 50px;
 }
 
+.section-contact-first button {
+  outline: none;
+  border: 0;
+  background-color: var(--prusian-blue-b300);
+  color: var(--white-b300);
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: .33s;
+  border: 1px solid var(--prusian-blue-b300);
+}
+
+.section-contact-first button:hover {
+  background-color: var(--white-b300);
+  color: var(--prusian-blue-b300);
+  border-radius: 15px;
+}
 
 .markercluster-map {
   height: 300px;
@@ -405,6 +469,63 @@ p.p-xs {
   background: transparent;
   border: none;
 }
+
+.rounded-svg {
+  width: 50%;
+  position: relative;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.rounded-svg svg {
+  width: 100%;
+}
+
+.compta-grid-elem {
+  padding: 100px 0;
+  /* background-color: #969696; */
+  display: grid;
+  grid-column-gap: 40px;
+  grid-row-gap: 0px;
+}
+
+.compta-grid-elem-left {
+  grid-template-columns: 0.4fr 0.6fr;
+}
+
+.compta-grid-elem-right {
+  grid-template-columns: 0.6fr 0.4fr;
+}
+
+.compta-grid-elem .compta-grid-elem-text {
+  padding: 100px 0;
+}
+
+.compta-grid-elem .compta-grid-elem-text p {
+  padding-top: 40px;
+}
+
+.compta-grid-elem .compta-grid-elem-img {
+  width: 100%;
+  height: 100%;
+  background-color: var(--prusian-blue-b300);
+  background-size: cover;
+  position: relative;
+  background-position: center center;
+}
+
+.compta-grid-elem .compta-grid-elem-img::after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  content: ' ';
+  background-color: rgba(0, 40, 89, 0.4);
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+
 
 /* .section-about-second .grid-2 .grid-elem:nth-child(1) {
   background-color: yellow;

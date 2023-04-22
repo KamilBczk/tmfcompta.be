@@ -4,6 +4,8 @@ import Logo from '../../assets/logo/logo.svg'
 import './header.css'
 
 function Header() {
+  const currentLocation = window.location.pathname;
+
   return (
     <div className='header'>
       <div className='container'>
@@ -16,10 +18,10 @@ function Header() {
           <header>
             <nav>
               <ul>
-                <li><a href="/" className='active'>Accueil</a></li>
-                <li><a href="/comptabilite-generale">Comptabilité générale</a></li>
-                <li><a href="/a-propos">À propos</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="/" className={currentLocation === "/" ? "active" : ""}>Accueil</a></li>
+                <li><a href="/comptabilite-generale" className={currentLocation === "/comptabilite-generale" ? "active" : ""}>Comptabilité générale</a></li>
+                <li><a href="/a-propos" className={currentLocation === "/a-propos" ? "active" : ""}>À propos</a></li>
+                <li><a href="/contact" className={currentLocation === "/contact" ? "active" : ""}>Contact</a></li>
               </ul>
             </nav>
           </header>

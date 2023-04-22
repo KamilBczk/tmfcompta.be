@@ -12,19 +12,18 @@ import About from './views/About/About';
 import Contact from './views/Contact/Contact';
 import Error from './views/Error/Error';
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<BasicLayout/>}>
-        <Route index element={<Home/>}/>
-        <Route path='comptabilite-generale' element={<Compta/>}/>
-        <Route path='a-propos' element={<About/>}/>
-        <Route path='contact' element={<Contact/>}/>
-        <Route path='*' element={<Error/>}/>
-      </Route>
-    </Routes>
-  </BrowserRouter>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<BasicLayout/>}>
+          <Route index element={<Home/>}/>
+          <Route path='comptabilite-generale' element={<Compta/>}/>
+          <Route path='a-propos' element={<About/>}/>
+          <Route path='contact' element={<Contact/>}/>
+          <Route path='*' element={<Error/>}/>
+        </Route>
+      </Routes>
+    </BrowserRouter>
 );

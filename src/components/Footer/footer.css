@@ -1,0 +1,102 @@
+.footer-contact {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-color: var(--prusian-blue-b300);
+}
+
+.footer-contact::after {
+  content: ' ';
+
+  background-image: linear-gradient(to left bottom, var(--white-b300) 0%, var(--white-b300) 50%, transparent 50%);
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  left: 0;
+}
+.footer-contact img {
+  height: 500px;
+  position: absolute;
+}
+
+.footer-contact form {
+  float: left;
+  padding-top: 30px;
+}
+
+.footer-contact form input {
+  background-color: var(--prusian-blue-b300);
+  outline: none;
+  background-image: none;
+  color: var(--white-b300);
+  border: 0;
+  box-shadow: none;
+  font-size: 22px;
+  padding: 10px 20px;
+  border-bottom: 2px solid var(--white-b300);
+  width: 350px;
+}
+
+.footer-contact form button {
+  margin-left: 15px;
+  outline: none;
+  border: 0;
+  background-color: var(--white-b300);
+  color: var(--prusian-blue-b300);
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: .33s;
+  border: 1px solid var(--white-b300);
+}
+
+.footer-contact form button:hover {
+  background-color: var(--prusian-blue-b300);
+  color: var(--white-b300);
+  border-radius: 15px;
+}
+
+.footer-contact form input::placeholder {
+  /* color: var(--white-b300); */
+  font-weight: 300;
+}
+
+.footer .border {
+  padding: 100px 0;
+  border-top: 3px solid var(--white-b300);
+  border-bottom: 3px solid var(--white-b300);
+}
+
+.footer-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.footer-swap { grid-area: 2 / 1 / 4 / 2; }
+
+.footer-swap img {
+  height: 60px;
+}
+
+.footer-grid-3 .footer-grid-elem-title {
+  height: 70px;
+}
+
+.footer-grid-3 .footer-grid-elem {
+  padding: 10px 0;
+}
+
+.footer-grid-3 .footer-grid-elem .p-s {
+  font-weight: 400;
+}
+
+.bttomfooter-grid-3 {
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}

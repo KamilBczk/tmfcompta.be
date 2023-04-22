@@ -1,4 +1,5 @@
 import React from 'react'
+import {ReactSVG } from 'react-svg';
 
 import homeIllustration from '../../ressource/home-illustration.png'
 import homeGrid1 from '../../ressource/home-grid-1.png'
@@ -7,6 +8,7 @@ import homeGrid3 from '../../ressource/home-grid-3.png'
 import homeLogo from '../../ressource/home-logo.svg'
 import homeAbout from '../../ressource/home-about.png'
 import homeOpinion from '../../ressource/home-opinion.png'
+import roundIllustration from '../../ressource/round-illustration.svg'
 
 
 function Home() {
@@ -100,6 +102,13 @@ function Home() {
         </div>
       </div>
     </div>
+    <div className='section section-small'>
+        <div className='container'>
+          <div className='rounded-svg'>
+            <ReactSVG  src={roundIllustration} alt="" />
+          </div>
+        </div>
+      </div>
     </>
   )
 }
