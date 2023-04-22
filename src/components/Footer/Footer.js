@@ -52,25 +52,25 @@ function Footer() {
               <a className='p-xs' href="/comptabilite-generale">Comptabilité générale</a>
             </div>
             <div className='footer-grid-elem'>
-              <a href="tel:+32 484 44 69 93" className='p-xs'>+32 484 44 69 93</a>
+              <a href="tel:+32027058099" className='p-xs'>+32 (0)27 05 80 99</a>
             </div>
             <div className='footer-grid-elem'>
-              <p className='p-xs'>TMF Comtpa SRL.</p>
+              <p className='p-xs'>TMF Compta SNC</p>
             </div>
             <div className='footer-grid-elem'>
               <a className='p-xs' href="/a-propos">À propos</a>
             </div>
             <div className='footer-grid-elem'>
-              <p className='p-xs'>Avenue Docteur Zamenhof</p>
+              <p className='p-xs'>Steerebeekstraat 154,</p>
             </div>
             <div className='footer-grid-elem'>
-              <p className='p-xs'>Expert Comptable sur Bruxelles</p>
+              <p className='p-xs'>Expert Comptable sur Zaventem</p>
             </div>
             <div className='footer-grid-elem'>
               <a className='p-xs' href="/contact">Contact</a>
             </div>
             <div className='footer-grid-elem'>
-              <p className='p-xs'>1070 Anderlecht</p>
+              <p className='p-xs'>1930 Zaventem</p>
             </div>
           </div>
         </div>

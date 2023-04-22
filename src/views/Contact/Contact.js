@@ -88,12 +88,12 @@ function Contact() {
             <div className='clear'></div>
             <div className='grid-1'>
               <img src={contactAdressIcon} alt="" />
-                <a className='p-m'>Avenue Docteur Zamenhof 10</a>
+                <a className='p-m'>Steerebeekstraat 154, 1930 Zaventem</a>
             </div>
             <div className='clear'></div>
             <div className='grid-1'>
               <img src={contactTelIcon} alt="" />
-              <a href="tel:+32 484 44 69 93" className='p-m center-y'>+32 484 44 69 93</a>
+              <a href="tel:+32027058099" className='p-m center-y'>+32 (0)27 05 80 99</a>
             </div>
             <div className='clear'></div>
             <div className='grid-1'>

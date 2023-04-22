@@ -18,7 +18,7 @@ function Compta() {
     <>
       <div className='generic-banner generic-banner-compta'>
         <div className='text-box center-xy'>
-          <h1 className='title-xl text-bold text-white-b300'>Comptabilité générale {hash}</h1>
+          <h1 className='title-xl text-bold text-white-b300'>Comptabilité générale</h1>
         </div>
       </div>
       <div className='section section-small'>
@@ -44,7 +44,7 @@ function Compta() {
           <div className='compta-grid-elem-img' style={{backgroundImage: "url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)"}}></div>
         </div>
         <div className='compta-grid-elem compta-grid-elem-left' id='section3'>
-          <div className='compta-grid-elem-img' style={{backgroundImage : "url(https://images.unsplash.com/photo-1611224885990-ab7363d1f2a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1039&q=80)"}}></div>
+          <div className='compta-grid-elem-img' style={{backgroundImage : "url(https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1115&q=80)"}}></div>
           <div className='compta-grid-elem-text'>
             <h2 className='title'>Aide à la <span className='text-prusian-blue-b300'>gestion</span></h2>
             <p className='p-m'>Les comptables peuvent aider les entrepreneurs à gérer leur entreprise en fournissant des rapports financiers réguliers, en élaborant des budgets, en gérant les comptes clients et en préparant des prévisions financières.</p>

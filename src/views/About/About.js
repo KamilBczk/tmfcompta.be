@@ -38,15 +38,15 @@ function About() {
       <h2 className='title ml'>Notre <span className='text-prusian-blue-b300'>histoire</span></h2>
       <div className='grid-2'>
         <div className='grid-elem'>
-          <h2 className='title text-prusian-blue-b300 center-y'>2005</h2>
+          <h2 className='title text-prusian-blue-b300 center-y'>2014</h2>
         </div>
         <div className='grid-elem'>
           <div className='text-box'>
-            <p className='p-m'>Lorem ipsum dolor sit amet. Hic fugiat voluptas hic iure facere cum adipisci autem qui cupiditate voluptatem est quis error aut odit quos.</p>
+            <p className='p-m'>Création</p>
           </div>
         </div>
         <div className='grid-elem'>
-          <h2 className='title text-prusian-blue-b300 center-y'>2010</h2>
+          <h2 className='title text-prusian-blue-b300 center-y'>2025</h2>
         </div>
         <div className='grid-elem'>
           <div className='text-box'>
@@ -54,19 +54,19 @@ function About() {
           </div>
         </div>
         <div className='grid-elem'>
-          <h2 className='title text-prusian-blue-b300 center-y'>2012</h2>
+          <h2 className='title text-prusian-blue-b300 center-y'>2016</h2>
         </div>
         <div className='grid-elem'>
           <div className='text-box'>
-            <p className='p-m'>Lorem ipsum dolor sit amet. Hic fugiat voluptas hic iure facere cum adipisci autem qui cupiditate voluptatem est quis error aut odit quos.</p>
+            <p className='p-m'>Déménagement</p>
           </div>
         </div>
         <div className='grid-elem'>
-          <h2 className='title text-prusian-blue-b300 center-y'>2018</h2>
+          <h2 className='title text-prusian-blue-b300 center-y'>2022</h2>
         </div>
         <div className='grid-elem'>
           <div className='text-box'>
-            <p className='p-m'>Lorem ipsum dolor sit amet. Hic fugiat voluptas hic iure facere cum adipisci autem qui cupiditate voluptatem est quis error aut odit quos.</p>
+            <p className='p-m'>TPE - PME + Déménagement</p>
           </div>
         </div>
       </div>
