@@ -40,10 +40,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  min-width: 600px;
-}
-
 .clear {
   clear: both;
 }
@@ -584,6 +580,46 @@ a.p-xs {
   left: 0;
   z-index: 100;
 }
+
+@media screen and (max-width: 1250px) {
+  body {
+  }
+  .container {
+    width: 90%;
+  }
+  h1.title-xl {
+    font-size: 40px;
+  }
+  .first-home-section .container-left h1 .small-caps {
+    font-size: 50px;
+  }
+  p.p-m {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .section {
+    margin: 0;
+  }
+  .first-home-section .container {
+    grid-template-columns: 80%;
+  }
+  .first-home-section .container-right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  h1.title-xl {
+    font-size: 30px;
+  }
+  .first-home-section .container-left h1 .small-caps {
+    font-size: 40px;
+  }
+}
+
+
 
 /* .section-about-second .grid-2 .grid-elem:nth-child(1) {
   background-color: yellow;
