@@ -5,6 +5,7 @@ import {ReactSVG } from 'react-svg';
 
 function Compta() {
   const hash = window.location.hash.substring(1);
+
   if (hash) {
     var element = document.querySelector(hash);
     if (element) {

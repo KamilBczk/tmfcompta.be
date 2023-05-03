@@ -8,6 +8,12 @@ import Logo from './logo-white.svg'
 function Footer() {
   const currentLocation = window.location.pathname;
 
+  function submitForm(e) {
+    e.preventDefault();
+    const email = e.target.elements.mail.value;
+    window.location.href = `/contact?email=${encodeURIComponent(email)}`;
+  }
+
   return (
     <div className='footer'>
       {currentLocation !== "/contact" ?
@@ -16,8 +22,8 @@ function Footer() {
         <div className='container center-y'>
           <h2 className='title text-center text-white-b300'>Entrons en contact</h2>
           <div className='form center-x'>
-            <form className='center-x'>
-              <input type="mail" placeholder='info@example.com'/>
+            <form className='center-x' onSubmit={submitForm}>
+              <input id='mail' type="email" placeholder='info@example.com' required/>
               <button type='submit'>Envoyer</button>
             </form>
           </div>

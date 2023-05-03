@@ -2,17 +2,22 @@ import React, { useState } from 'react'
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import axios from 'axios';
+// import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api'
 
 import contactAdressIcon from '../../ressource/contact-adress-icon.svg'
 import contactMailIcon from '../../ressource/contact-mail-icon.svg'
 import contactTelIcon from '../../ressource/contact-tel-icon.svg'
+import queryString from 'query-string';
+
 // import "leaflet/dist/images/marker-shadow.png";
 
 function Contact() {
+  const params = queryString.parse(window.location.search);
+  const email = params.email;
 
   const [lastName, setLastName] = useState("");
   const [firstName, setFirstName] = useState("");
-  const [mail, setMail] = useState("");
+  const [mail, setMail] = useState(email ? email : "");
   const [number, setNumber] = useState("+32");
   const [company, setCompany] = useState("");
   const [message, setMessage] = useState("");
@@ -30,6 +35,10 @@ function Contact() {
       setMessage("");
     }
   }
+
+  // const {} = useLoadScript({
+  //   googleMapsApiKey: ""
+  // });
 
   return (
     <>
@@ -83,7 +92,16 @@ function Contact() {
           </div>
           <div className='grid-elem'>
             <div className='grid-1'>
-              <Map/>
+              <div className='map'>
+                <iframe
+                  height="250"
+                  width="100%"
+                  loading="lazy"
+                  allowfullscreen
+                  referrerpolicy="no-referrer-when-downgrade"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10070.93994200018!2d4.4855783!3d50.8731058!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3dcacc3b35dad%3A0x3fea5054a36896de!2sTMF%20Compta!5e0!3m2!1sfr!2sbe!4v1682965907037!5m2!1sfr!2sbe">
+                </iframe>
+              </div>
             </div>
             <div className='clear'></div>
             <div className='grid-1'>
@@ -171,22 +189,22 @@ const sendEmail = async (firstName, lastName, mail, number, company, message) =>
 };
 
 
-function Map() {
-  const position = [51.505, -0.09];
+// function Map() {
+//   const position = [51.505, -0.09];
 
-  return (
-    <MapContainer className="markercluster-map" center={position} zoom={13} scrollWheelZoom={false}>
-    <TileLayer
-      attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-      url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-    />
-    <Marker position={position}>
-      <Popup>
-        A pretty CSS3 popup. <br /> Easily customizable.
-      </Popup>
-    </Marker>
-  </MapContainer>
-  );
-}
+//   return (
+//     <MapContainer className="markercluster-map" center={position} zoom={13} scrollWheelZoom={false}>
+//     <TileLayer
+//       attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+//       url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+//     />
+//     <Marker position={position}>
+//       <Popup>
+//         A pretty CSS3 popup. <br /> Easily customizable.
+//       </Popup>
+//     </Marker>
+//   </MapContainer>
+//   );
+// }
 
 export default Contact
