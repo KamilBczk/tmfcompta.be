@@ -40,6 +40,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  min-width: 600px;
+}
+
 .clear {
   clear: both;
 }
@@ -588,3 +592,4 @@ a.p-xs {
 .section-about-second .grid-2 .grid-elem:nth-child(2) {
   background-color: red;
 } */
+
