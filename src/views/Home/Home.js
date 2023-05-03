@@ -145,9 +145,6 @@ function Home() {
     </div>
     <div className='section section-home-fifth bg-prusian-blue-b300'>
       <div className='container'>
-        <div className='arrow arrow-left'>
-          <img src={arrowLeft} alt="" onClick={() => handleSlider("back")}/>
-        </div>
         <div className='carousel-review'>
           <div className='carousel-container' style={reviewStyle}>
             {reviews != null
@@ -156,12 +153,15 @@ function Home() {
                   <p className='p-s text-center text-bold text-white-b300'>{review.name}</p>
                   <p className='p-xs text-center text-italic text-white-b300'>{review.time}</p>
                   <p className='p-xs text-center text-white-b300' style={{paddingTop: "20px"}}>“{review.review}”</p>
-                  {/* <img src={review.avatar} alt="" /> */}
+                  <img src={review.avatar} alt="" />
                 </div>
               ))
               : <></>
             }
           </div>
+        </div>
+        <div className='arrow arrow-left'>
+          <img src={arrowLeft} alt="" onClick={() => handleSlider("back")}/>
         </div>
         <div className='arrow arrow-right'>
           <img src={arrowRight} alt="" onClick={() => handleSlider("next")}/>
