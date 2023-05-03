@@ -635,6 +635,10 @@ a.p-xs {
   .first-home-section .container-left .sep {
     margin: 30px auto;
   }
+  .second-home-section .grid-3 {
+    grid-column-gap: 2%;
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -662,6 +666,9 @@ a.p-xs {
 
   .header .navigation {
     display: none;
+  }
+  h2.title {
+    font-size: 25px;
   }
 }
 
