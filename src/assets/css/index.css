@@ -647,6 +647,22 @@ a.p-xs {
   .first-home-section .container-left {
     width: 100%;
   }
+  .header {
+    padding: 10px 0;
+  }
+  .header .logo {
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    height: 30px;
+  }
+  .header .logo img {
+    height: 30px !important;
+  }
+
+  .header .navigation {
+    display: none;
+  }
 }
 
 
