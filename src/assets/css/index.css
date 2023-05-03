@@ -639,6 +639,9 @@ a.p-xs {
     grid-column-gap: 2%;
     margin: 0;
   }
+  .third-home-section {
+    padding: 80px 0;
+  }
 }
 
 @media screen and (max-width: 700px) {
