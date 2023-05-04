@@ -697,9 +697,16 @@ a.p-xs {
   p.p-m {
     font-size: 18px;
   }
+  .rounded-svg {
+    width: 60%;
+  }
 }
 
-
+@media screen and (max-width: 550px) {
+  .rounded-svg {
+    width: 80%;
+  }
+}
 
 /* .section-about-second .grid-2 .grid-elem:nth-child(1) {
   background-color: yellow;
