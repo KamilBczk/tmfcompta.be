@@ -52,20 +52,60 @@ function Home() {
   ]
 
   const [reviewActive, setReviewActive] = useState(0);
+  const [leftProp, setLeftProp] = useState('');
 
   const reviewStyle = {
-    left: `calc((-100% / 3) * ${reviewActive})`
+    left: leftProp
   }
+
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth > 1250) {
+        setLeftProp(`calc((-100% / 3) * ${reviewActive})`);
+      } else if (window.innerWidth > 950) {
+        setLeftProp(`calc((-100% / 2) * ${reviewActive})`);
+      } else {
+        setLeftProp(`calc((-100% / 1) * ${reviewActive})`);
+      }
+    };
+    handleResize();
+    window.addEventListener('resize', handleResize); 
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, [reviewActive]);
+
 
   const handleSlider = (action) => {
     if(action === "back") {
-      if (reviewActive != 0) {
-        setReviewActive(reviewActive - 1)
+      if (reviewActive > 0) {
+        if (window.innerWidth > 1250) {
+            setReviewActive(reviewActive - 1)
+        }
+        else if (window.innerWidth > 950) {
+            setReviewActive(reviewActive - 1)
+        }
+        else {
+            setReviewActive(reviewActive - 1)
+        }
       }
     }
-    if(action === "next") {
-      if (reviewActive != 2) {
-        setReviewActive(reviewActive + 1)
+    else if(action === "next") {
+      if (window.innerWidth > 1250) {
+        if (reviewActive < 2) {
+          setReviewActive(reviewActive + 1)
+        }
+      }
+      else if (window.innerWidth > 950) {
+        if (reviewActive < 3) {
+          setReviewActive(reviewActive + 1)
+        }
+      }
+      else {
+        if (reviewActive < 4) {
+          setReviewActive(reviewActive + 1)
+        }
       }
     }
   }
@@ -146,7 +186,7 @@ function Home() {
     <div className='section section-home-fifth bg-prusian-blue-b300'>
       <div className='container'>
         <div className='carousel-review'>
-          <div className='carousel-container' style={reviewStyle}>
+          <div className={`carousel-container`} style={reviewStyle}>
             {reviews != null
               ? reviews.map((review) => (
                 <div className='carousel-elem'>
@@ -160,13 +200,14 @@ function Home() {
             }
           </div>
         </div>
-        <div className='arrow arrow-left'>
-          <img src={arrowLeft} alt="" onClick={() => handleSlider("back")}/>
+        <div className='arrows'>
+          <div className='arrow arrow-left'>
+            <img src={arrowLeft} alt="" onClick={() => handleSlider("back")}/>
+          </div>
+          <div className='arrow arrow-right'>
+            <img src={arrowRight} alt="" onClick={() => handleSlider("next")}/>
+          </div>
         </div>
-        <div className='arrow arrow-right'>
-          <img src={arrowRight} alt="" onClick={() => handleSlider("next")}/>
-        </div>
-        <div className='clear'></div>
       </div>
     </div>
     <div className='section section-small'>

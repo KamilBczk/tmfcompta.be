@@ -47,6 +47,7 @@ html {
 .container {
   width: 80%;
   margin: 0 auto;
+  position: relative;
 }
 
 .section {
@@ -298,6 +299,17 @@ a.p-xs {
   width: 70%;
 }
 
+.section-home-fifth {
+  position: relative;
+}
+
+.arrows {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
 .arrow-left {
   float: left;
 }
@@ -307,7 +319,7 @@ a.p-xs {
 }
 
 .carousel-review {
-  width: 90%;
+  width: 95%;
   position: relative;
   overflow: hidden;
   margin: 0 auto;
