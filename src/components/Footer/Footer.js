@@ -37,7 +37,7 @@ function Footer() {
             <div className='footer-grid-elem footer-grid-elem-title'>
               <p className='p-s'>Statut</p>
             </div>
-            <div className='footer-grid-elem footer-grid-elem-title'>
+            <div className='footer-grid-elem footer-grid-elem-title responsive-hide'>
               <p className='p-s'>Liens</p>
             </div>
             <div className='footer-grid-elem footer-grid-elem-title'>
@@ -46,7 +46,7 @@ function Footer() {
             <div className='footer-grid-elem footer-swap'>
               <img src={Logo} alt="" />
             </div>
-            <div className='footer-grid-elem'>
+            <div className='footer-grid-elem responsive-hide'>
               <a className='p-xs' href="/">Accueil</a>
             </div>
             <div className='footer-grid-elem'>
@@ -54,7 +54,7 @@ function Footer() {
             </div>
             <div className='footer-grid-elem footer-swap'>
             </div>
-            <div className='footer-grid-elem'>
+            <div className='footer-grid-elem responsive-hide'>
               <a className='p-xs' href="/comptabilite-generale">Comptabilité générale</a>
             </div>
             <div className='footer-grid-elem'>
@@ -63,7 +63,7 @@ function Footer() {
             <div className='footer-grid-elem'>
               <p className='p-xs'>TMF Compta SNC</p>
             </div>
-            <div className='footer-grid-elem'>
+            <div className='footer-grid-elem responsive-hide'>
               <a className='p-xs' href="/a-propos">À propos</a>
             </div>
             <div className='footer-grid-elem'>
@@ -72,7 +72,7 @@ function Footer() {
             <div className='footer-grid-elem'>
               <p className='p-xs'>Expert Comptable sur Zaventem</p>
             </div>
-            <div className='footer-grid-elem'>
+            <div className='footer-grid-elem responsive-hide'>
               <a className='p-xs' href="/contact">Contact</a>
             </div>
             <div className='footer-grid-elem'>

@@ -264,6 +264,7 @@ a.p-xs {
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 5%;
   grid-row-gap: 0px;
+  max-height: 60px;
 }
 
 .third-home-section .grid-4 .grid-elem {
@@ -278,6 +279,7 @@ a.p-xs {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  max-height: 60px;
 }
 
 .section-home-fourth .grid-2 {
@@ -584,6 +586,12 @@ a.p-xs {
   .carousel-review .carousel-container {
     width: calc(100% / 2);
   }
+  .footer .responsive-hide {
+    display: none;
+  }
+  .footer .footer-grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media screen and (max-width: 950px) {
@@ -700,6 +708,7 @@ a.p-xs {
   .rounded-svg {
     width: 60%;
   }
+  
 }
 
 @media screen and (max-width: 550px) {
