@@ -697,6 +697,15 @@ a.p-xs {
     transform: translate(-50%);
     display: block;
   }
+  .footer .text-right {
+    text-align: center !important;
+  }
+  .footer .text-left {
+    text-align: center !important;
+  }
+  .bttomfooter-grid-3 {
+    padding: 30px 0 !important;
+  }
 }
 
 @media screen and (max-width: 780px) {
