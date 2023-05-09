@@ -162,6 +162,7 @@ a.p-xs {
 
 .generic-banner .text-box {
   position: absolute;
+  text-align: center;
 }
 
 .generic-banner::before {
@@ -705,6 +706,21 @@ a.p-xs {
   }
   .bttomfooter-grid-3 {
     padding: 30px 0 !important;
+  }
+  .compta-grid-elem .compta-grid-elem-img {
+    height: 200px;
+    max-width: 800px;
+    order: 1;
+    margin: 0 auto;
+  }
+  .compta-grid-elem .compta-grid-elem-text {
+    padding: 50px 0 0;
+    order: 2;
+  }
+  .compta-grid-elem {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
   }
 }
 
