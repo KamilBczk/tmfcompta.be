@@ -677,6 +677,26 @@ a.p-xs {
   .carousel-review {
     width: 100%;
   }
+  .footer-contact form {
+    float: none !important;
+    text-align: center;
+  }
+  .footer-contact form input {
+    font-size: 18px !important;
+    width: 60% !important;
+    display: inline-block;
+    max-width: 400px;
+  }
+  .footer-contact form button {
+    font-size: 18px !important;
+    padding: 10px 25px !important;
+    margin-left: 0 !important;
+    margin-top: 20px;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%);
+    display: block;
+  }
 }
 
 @media screen and (max-width: 780px) {
