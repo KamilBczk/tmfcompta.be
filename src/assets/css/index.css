@@ -728,6 +728,9 @@ a.p-xs {
   .carousel-review .carousel-container {
     width: calc(100% / 1);
   }
+  .section-about-first .text-box {
+    max-width: 80%;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -786,6 +789,9 @@ a.p-xs {
 @media screen and (max-width: 550px) {
   .rounded-svg {
     width: 80%;
+  }
+  .section-about-first .text-box {
+    max-width: 100%;
   }
 }
 
