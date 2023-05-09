@@ -783,7 +783,9 @@ a.p-xs {
   .rounded-svg {
     width: 60%;
   }
-  
+  .generic-banner {
+    height: 200px;
+  }
 }
 
 @media screen and (max-width: 550px) {
