@@ -3,11 +3,11 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import axios from 'axios';
 // import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api'
-
 import contactAdressIcon from '../../ressource/contact-adress-icon.svg'
 import contactMailIcon from '../../ressource/contact-mail-icon.svg'
 import contactTelIcon from '../../ressource/contact-tel-icon.svg'
 import queryString from 'query-string';
+import env from "react-dotenv";
 
 // import "leaflet/dist/images/marker-shadow.png";
 
@@ -44,7 +44,7 @@ function Contact() {
     <>
     <div className='generic-banner generic-banner-contact'>
       <div className='text-box center-xy'>
-        <h1 className='title-xl text-bold text-white-b300'>Contact</h1>
+        <h1 className='title-xl text-bold text-white-b300'>Contact {env.TEST}</h1>
       </div>
     </div>
     <div className='section section-contact-first'>
@@ -126,7 +126,6 @@ function Contact() {
   );
 }
 
-
 const sendEmail = async (firstName, lastName, mail, number, company, message) => {
   axios.post('https://api.brevo.com/v3/smtp/email', {
     sender: {
@@ -178,7 +177,7 @@ const sendEmail = async (firstName, lastName, mail, number, company, message) =>
   }, {
     headers: {
       'accept': 'application/json',
-      'api-key': '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',
+      'api-key': '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',
       'content-type': 'application/json'
     }
   }).then(response => {
