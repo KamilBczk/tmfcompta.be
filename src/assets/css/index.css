@@ -595,6 +595,9 @@ a.p-xs {
   .input-container label {
     font-size: 18px;
   }
+  .section-contact-first button {
+    font-size: 18px
+  }
   .input-container input:focus ~ label,
   .input-container input.active ~ label,
   .input-container textarea:focus ~ label,
@@ -795,6 +798,11 @@ a.p-xs {
   }
   .input-container label {
     font-size: 16px;
+  }
+  .section-contact-first button {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
   }
   .input-container input:focus ~ label,
   .input-container input.active ~ label,
