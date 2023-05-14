@@ -592,6 +592,17 @@ a.p-xs {
   .footer .footer-grid-3 {
     grid-template-columns: repeat(2, 1fr);
   }
+  .input-container label {
+    font-size: 18px;
+  }
+  .input-container input:focus ~ label,
+  .input-container input.active ~ label,
+  .input-container textarea:focus ~ label,
+  .input-container textarea.active ~ label {
+    top: -20px;
+    font-size: 15px;
+    color: var(--prusian-blue-b300);
+  }
   p.p-s {
     font-size: 18px;
   }
@@ -781,6 +792,17 @@ a.p-xs {
   }
   a.p-m {
     font-size: 18px;
+  }
+  .input-container label {
+    font-size: 16px;
+  }
+  .input-container input:focus ~ label,
+  .input-container input.active ~ label,
+  .input-container textarea:focus ~ label,
+  .input-container textarea.active ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: var(--prusian-blue-b300);
   }
   .rounded-svg {
     width: 60%;
