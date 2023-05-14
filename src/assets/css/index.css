@@ -629,7 +629,7 @@ a.p-xs {
     padding: 5px 0 !important;
   }
   .bttomfooter-grid-3 {
-    grid-template-columns: 1fr !important;
+    /* grid-template-columns: 1fr !important; */
   }
 }
 
@@ -722,6 +722,7 @@ a.p-xs {
     text-align: center !important;
   }
   .bttomfooter-grid-3 {
+    grid-template-columns: 1fr !important;
     padding: 30px 0 !important;
   }
   .compta-grid-elem .compta-grid-elem-img {
