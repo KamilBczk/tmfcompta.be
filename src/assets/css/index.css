@@ -565,6 +565,29 @@ a.p-xs {
   z-index: 100;
 }
 
+.widget {
+  width: 60px;
+  height: 60px;
+  background-color: var(--prusian-blue-b300);
+  border-radius: 50%;
+  position: fixed;
+  right: 5%;
+  bottom: 10%;
+  z-index: 1000;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
+  box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
+}
+
+.widget img {
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+}
+
 @media screen and (max-width: 1250px) {
   body {
   }
