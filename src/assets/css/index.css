@@ -391,10 +391,6 @@ a.p-xs {
   max-width: 70%;
 }
 
-.section-contact-first .container {
-  width: 70%;
-}
-
 .section-contact-first .grid-2 {
   display: grid;
   grid-template-columns: 0.6fr 0.4fr;
@@ -418,12 +414,12 @@ a.p-xs {
 }
 
 .section-contact-first .grid-1 {
-  margin-left: 15%;
+  margin-left: 5%;
   position: relative;
   margin-top: 30px;
 }
 .section-contact-first .grid-1 .map {
-  margin-left: 15%;
+  margin-left: 5%;
 }
 .section-contact-first .grid-1 img {
   float: left;
@@ -461,7 +457,7 @@ a.p-xs {
 
 .input-container textarea {
   font-size: 20px;
-  padding: 10px;
+  padding: 10px 0;
   width: 100%;
   border: none;
   border-bottom: 2px solid var(--prusian-blue-b300);
@@ -582,6 +578,9 @@ a.p-xs {
     font-size: 50px;
   }
   p.p-m {
+    font-size: 20px;
+  }
+  a.p-m {
     font-size: 20px;
   }
   .carousel-review .carousel-container {
@@ -780,11 +779,30 @@ a.p-xs {
   p.p-m {
     font-size: 18px;
   }
+  a.p-m {
+    font-size: 18px;
+  }
   .rounded-svg {
     width: 60%;
   }
   .generic-banner {
     height: 200px;
+  }
+  .section-contact-first .grid-1 img {
+    width: 30px;
+    height: 30px;
+  }
+  .section-contact-first .grid-2 {
+    grid-template-columns: 1fr;
+  }
+  .section-contact-first .grid-1 .map {
+    margin: 0;
+  }
+  .section-contact-first .grid-1 {
+    margin: 30px 0 0 ;
+  }
+  .section-contact-first .grid-2 .grid-elem:nth-child(2) {
+    margin-top: 50px;
   }
 }
 

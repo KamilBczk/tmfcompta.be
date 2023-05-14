@@ -7,7 +7,6 @@
 
 .footer-contact::after {
   content: ' ';
-
   background-image: linear-gradient(to left bottom, var(--white-b300) 0%, var(--white-b300) 50%, transparent 50%);
   position: absolute;
   width: 100%;
