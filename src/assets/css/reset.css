@@ -32,14 +32,12 @@ input:-webkit-autofill:active{
   border-radius: none;
 }
 
-input {
-  -webkit-appearance: none;
-}
-
-input {
-  border-radius: 0;
-}
-
+textarea,
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
 input[type="search"] {
-  -webkit-appearance: none;
+	-webkit-appearance: none;
+	border-radius: 0;
 }
