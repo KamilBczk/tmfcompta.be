@@ -33,6 +33,7 @@ input:-webkit-autofill:active{
 }
 
 textarea,
+input,
 input[type="text"],
 input[type="button"],
 input[type="submit"],
