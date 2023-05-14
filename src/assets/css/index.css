@@ -644,6 +644,8 @@ a.p-xs {
     background-size: cover;
     position: relative;
     background-position: center center;
+    height: calc(100vh - 74px);
+    padding: 0;
   }
   .first-home-section::before {
     position: absolute;
@@ -657,6 +659,9 @@ a.p-xs {
   .first-home-section .container {
     position: relative;
     display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
   }
   .first-home-section .container .center-y {
     top: 0;

@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import {ReactSVG } from 'react-svg';
 
 import homeIllustration from '../../ressource/home-illustration.png'
-import homeResponsive from '../../ressource/home-image-responsive.png'
 import homeGrid1 from '../../ressource/home-grid-1.png'
 import homeGrid2 from '../../ressource/home-grid-2.png'
 import homeGrid3 from '../../ressource/home-grid-3.png'
