@@ -128,7 +128,7 @@ function Contact() {
 
 
 const sendEmail = async (firstName, lastName, mail, number, company, message) => {
-  axios.post('https://api.sendinblue.com/v3/smtp/email', {
+  axios.post('https://api.brevo.com/v3/smtp/email', {
     sender: {
         name: 'TMF COMPTA',
         email: 'admin@kago-group.com'
@@ -178,7 +178,7 @@ const sendEmail = async (firstName, lastName, mail, number, company, message) =>
   }, {
     headers: {
       'accept': 'application/json',
-      'api-key': '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',
+      'api-key': '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',
       'content-type': 'application/json'
     }
   }).then(response => {
