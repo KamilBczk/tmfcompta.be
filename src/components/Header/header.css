@@ -54,3 +54,21 @@
 .header .navigation header nav ul li a.active {
   color: var(--prusian-blue-b300);
 }
+
+.menu-btn {
+  width: 30px;
+  height: 30px;
+}
+
+.menu-btn img {
+  width: 30px;
+  height: 30px;
+}
+
+.hamburger-menu {
+  display: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5%;
+}

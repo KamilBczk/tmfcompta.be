@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import Logo from '../../assets/logo/logo.svg'
+import hamburgerMenu from '../../ressource/hamburger-menu.svg'
+import closeMenu from '../../ressource/close-menu.svg'
 import './header.css'
 
 function Header() {
   const currentLocation = window.location.pathname;
+  const [openMenu, setOpenMenu] = useState(false);
 
   return (
     <div className='header'>
@@ -14,7 +17,7 @@ function Header() {
             <img src={Logo} alt='Logo TMF COMPTA'/>
           </a>
         </div>
-        <div className='navigation'>
+        <div className={`navigation ${openMenu ? "navigation-show" : "navigation-hide"}`}>
           <header>
             <nav>
               <ul>
@@ -26,6 +29,7 @@ function Header() {
             </nav>
           </header>
         </div>
+        <div onClick={() => setOpenMenu(prevOpenMenu => !prevOpenMenu)} className='hamburger-menu menu-btn'><img src={`${openMenu ? closeMenu : hamburgerMenu}`} alt="" /></div>
       </div>
     </div>
   )
