@@ -905,6 +905,9 @@ a.p-xs {
   .section-about-first .text-box {
     max-width: 100%;
   }
+  .widget {
+    bottom: 5%;
+  }
 }
 
 /* .section-about-second .grid-2 .grid-elem:nth-child(1) {
