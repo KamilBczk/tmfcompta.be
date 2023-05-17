@@ -34,13 +34,13 @@ function Compta() {
           <div className='compta-grid-elem-img' style={{backgroundImage : "url(https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80)"}}></div>
           <div className='compta-grid-elem-text'>
             <h2 className='title'>Conseil en <span className='text-prusian-blue-b300'>création</span> d'entreprise</h2>
-            <p className='p-m'>Le comptable peut aider les entrepreneurs à établir un plan d'affaires et à choisir la forme juridique appropriée pour leur entreprise. Ils peuvent également aider à la préparation des documents nécessaires à l'enregistrement de l'entreprise.</p>
+            <p className='p-m'>Créez votre entreprise en toute confiance avec notre service de conseil spécialisé en création d'entreprise. Avec une grande expérience, nous vous accompagnons dans toutes les étapes de votre projet entrepreneurial, de la planification initiale à l'établissement des structures juridiques. Notre équipe expérimentée met à votre disposition son expertise approfondie pour vous aider à réaliser vos ambitions entrepreneuriales et à bâtir une entreprise solide et prospère.</p>
           </div>
         </div>
         <div className='compta-grid-elem compta-grid-elem-right' id='section2'>
           <div className='compta-grid-elem-text'>
             <h2 className='title'>Missions <span className='text-prusian-blue-b300'>spéciales</span></h2>
-            <p className='p-m'>Les comptables peuvent être mandatés pour effectuer des audits, des évaluations financières et des enquêtes financières spéciales, ainsi que pour aider les entreprises à obtenir des financements auprès d'institutions financières.</p>
+            <p className='p-m'>Nous excellons dans la réalisation de missions spéciales qui exigent une expertise comptable pointue. Que ce soit pour des audits approfondis, des évaluations financières précises ou des conseils en gestion fiscale, notre équipe expérimentée est prête à relever tous les défis. Avec une approche personnalisée et une attention méticuleuse aux détails, nous nous engageons à fournir des solutions sur mesure qui répondent aux besoins spécifiques de nos clients. Faites appel à notre savoir-faire pour des missions spéciales réussies.</p>
           </div>
           <div className='compta-grid-elem-img' style={{backgroundImage: "url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)"}}></div>
         </div>
@@ -48,13 +48,13 @@ function Compta() {
           <div className='compta-grid-elem-img' style={{backgroundImage : "url(https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1115&q=80)"}}></div>
           <div className='compta-grid-elem-text'>
             <h2 className='title'>Aide à la <span className='text-prusian-blue-b300'>gestion</span></h2>
-            <p className='p-m'>Les comptables peuvent aider les entrepreneurs à gérer leur entreprise en fournissant des rapports financiers réguliers, en élaborant des budgets, en gérant les comptes clients et en préparant des prévisions financières.</p>
+            <p className='p-m'>Optimisez la gestion de votre entreprise grâce à notre service d'aide à la gestion. Nous travaillons en étroite collaboration avec vous pour comprendre vos objectifs, identifier les opportunités d'amélioration et mettre en place des stratégies efficaces. Que ce soit pour la gestion financière, la planification budgétaire, l'optimisation des processus ou la prise de décision éclairée, notre équipe compétente et expérimentée est là pour vous fournir les conseils et les outils dont vous avez besoin. Libérez votre potentiel de croissance avec notre expertise en gestion d'entreprise.</p>
           </div>
         </div>
         <div className='compta-grid-elem compta-grid-elem-right' id='section4'>
           <div className='compta-grid-elem-text'>
             <h2 className='title'><span className='text-prusian-blue-b300'>Accompagnement</span> de la personne</h2>
-            <p className='p-m'>Les comptables peuvent également aider les entrepreneurs en leur offrant un accompagnement personnalisé. Cela peut inclure des conseils sur la gestion de trésorerie, l'optimisation fiscale, la planification de la retraite et la planification successorale.</p>
+            <p className='p-m'>Nous offrons un accompagnement personnalisé pour vous aider à atteindre vos objectifs financiers et professionnels. Notre approche centrée sur la personne met l'accent sur le développement de vos compétences, la gestion de carrière et la réalisation de votre plein potentiel. Que vous ayez besoin de conseils en matière de gestion financière personnelle, de planification de la retraite ou de conseils pour les investissements, notre équipe dédiée est là pour vous guider à chaque étape du chemin. Profitez d'un accompagnement bienveillant et expert pour bâtir un avenir financier solide et épanouissant.</p>
           </div>
           <div className='compta-grid-elem-img' style={{backgroundImage: "url(https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)"}}></div>
         </div>
@@ -68,7 +68,7 @@ function Compta() {
         <div className='compta-grid-elem compta-grid-elem-right' id='section6'>
           <div className='compta-grid-elem-text'>
             <h2 className='title'>Conseil <span className='text-prusian-blue-b300'>fiscal</span></h2>
-            <p className='p-m'>Les comptables peuvent offrir des conseils fiscaux aux entrepreneurs pour minimiser leur charge fiscale et se conformer aux lois fiscales applicables. Ils peuvent également aider les entrepreneurs à préparer et à déposer leur déclaration de revenus.</p>
+            <p className='p-m'>Obtenez une expertise fiscale solide grâce à notre service de conseil fiscal. Notre équipe hautement qualifiée vous accompagne dans la gestion optimale de vos obligations fiscales. Nous vous aidons à naviguer dans la complexité des lois fiscales, à identifier les opportunités d'optimisation et à minimiser les risques. Que vous ayez besoin de conseils en matière de déclarations fiscales, de planification successorale ou de structuration fiscale, nous sommes là pour vous fournir des solutions adaptées à votre situation spécifique. Faites confiance à notre savoir-faire en matière de conseil fiscal pour maximiser vos avantages fiscaux et assurer une conformité optimale.</p>
           </div>
           <div className='compta-grid-elem-img' style={{backgroundImage: "url(https://images.unsplash.com/photo-1554224154-26032ffc0d07?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1126&q=80)"}}></div>
         </div>
@@ -76,7 +76,7 @@ function Compta() {
           <div className='compta-grid-elem-img' style={{backgroundImage : "url(https://plus.unsplash.com/premium_photo-1679922747473-f7210acb783e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)"}}></div>
           <div className='compta-grid-elem-text'>
             <h2 className='title'>Tenue de <span className='text-prusian-blue-b300'>comptabilité</span></h2>
-            <p className='p-m'>Les comptables peuvent tenir à jour les livres de comptes des entrepreneurs, enregistrer les transactions financières, préparer les états financiers et gérer les comptes fournisseurs et les comptes clients.</p>
+            <p className='p-m'>Simplifiez la gestion de votre comptabilité grâce à notre service de tenue de comptabilité. Nous prenons en charge tous les aspects liés à votre comptabilité, des opérations quotidiennes à la préparation des états financiers. Avec notre expertise approfondie et notre souci du détail, nous veillons à ce que vos registres financiers soient précis, à jour et conformes aux normes comptables en vigueur. Vous pouvez ainsi vous concentrer sur le développement de votre entreprise en toute tranquillité d'esprit, sachant que vos données financières sont gérées de manière rigoureuse et professionnelle. Faites confiance à notre équipe compétente pour une tenue de comptabilité efficace et fiable.</p>
           </div>
         </div>
       </div>
