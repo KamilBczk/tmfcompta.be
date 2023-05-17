@@ -907,7 +907,7 @@ a.p-xs {
     text-align: center;
   }
   .section-about-second .grid-2 .grid-elem:nth-child(even) {
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .section-about-second .grid-2 .grid-elem:nth-child(odd) {
     margin-top: 40px;
