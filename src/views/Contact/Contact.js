@@ -8,6 +8,7 @@ import contactMailIcon from '../../ressource/contact-mail-icon.svg'
 import contactTelIcon from '../../ressource/contact-tel-icon.svg'
 import queryString from 'query-string';
 import env from "react-dotenv";
+import { Helmet } from 'react-helmet';
 
 // import "leaflet/dist/images/marker-shadow.png";
 
@@ -42,6 +43,11 @@ function Contact() {
 
   return (
     <>
+    <div>
+      <Helmet>
+        <title>Contact | TMF Compta</title>
+      </Helmet>
+    </div>
     <div className='generic-banner generic-banner-contact'>
       <div className='text-box center-xy'>
         <h1 className='title-xl text-bold text-white-b300'>Contact</h1>

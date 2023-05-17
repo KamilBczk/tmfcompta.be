@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import {ReactSVG } from 'react-svg';
+import { Helmet } from 'react-helmet';
 
 import homeIllustration from '../../ressource/home-illustration.png'
 import homeGrid1 from '../../ressource/home-grid-1.png'
@@ -112,6 +113,11 @@ function Home() {
 
   return (
     <>
+    <div>
+      <Helmet>
+        <title>TMF Comtpa | Accueil</title>
+      </Helmet>
+    </div>
     <div className='section first-home-section'>
       <div className='container'>
         <div className='container-left'>

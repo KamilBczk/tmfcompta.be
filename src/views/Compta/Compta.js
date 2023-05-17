@@ -1,6 +1,7 @@
 import React from 'react'
 import roundIllustration from '../../ressource/round-illustration.svg'
 import {ReactSVG } from 'react-svg';
+import { Helmet } from 'react-helmet';
 
 
 function Compta() {
@@ -17,6 +18,11 @@ function Compta() {
 
   return (
     <>
+    <div>
+      <Helmet>
+        <title>Comptabilité générale | TMF Compta</title>
+      </Helmet>
+    </div>
       <div className='generic-banner generic-banner-compta'>
         <div className='text-box center-xy'>
           <h1 className='title-xl text-bold text-white-b300'>Comptabilité générale</h1>

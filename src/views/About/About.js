@@ -1,10 +1,16 @@
 import React from 'react'
+import { Helmet } from 'react-helmet';
 
 import homeAbout from '../../ressource/home-about.png'
 
 function About() {
   return (
     <>
+    <div>
+      <Helmet>
+        <title>À Propos | TMF Compta</title>
+      </Helmet>
+    </div>
     <div className='generic-banner generic-banner-about'>
       <div className='text-box center-xy'>
         <h1 className='title-xl text-bold text-white-b300'>à propos</h1>
