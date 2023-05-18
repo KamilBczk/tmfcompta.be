@@ -788,6 +788,7 @@ a.p-xs {
   .container-wheel .text-box {
     max-width: 80%;
     margin: 0 auto;
+    text-align: center;
   }
   .container-wheel .rounded-svg {
     margin-top: 50px;
