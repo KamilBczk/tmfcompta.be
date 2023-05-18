@@ -22,7 +22,7 @@ function About() {
         <div className='grid-elem'>
           <div className='center-y'>
             <h2 className='title'>Qui sommes<span className='text-prusian-blue-b300'> nous?</span></h2>
-            <p className='p-m'>TMF compta est un bureau Lorem ipsum dolor sit amet. Hic fugiat voluptas hic iure facere cum adipisci autem qui cupiditate voluptatem est quis error aut odit quos. Sit commodi nisi ut odit quaerat et eligendi dolor est praesentium neque est quia nemo sed dolor assumenda.</p>
+            <p className='p-m'>Notre cabinet comptable à Zaventem cumule plus de 10 années d'expérience dans le domaine, offrant des services comptables fiables et personnalisés pour les entreprises de toutes tailles. Notre équipe d'experts dévoués met tout en œuvre pour vous aider à atteindre vos objectifs financiers et vous accompagne dans la réussite de votre entreprise.</p>
           </div>
         </div>
         <div className='grid-elem'>
