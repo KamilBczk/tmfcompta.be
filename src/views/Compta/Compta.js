@@ -28,8 +28,11 @@ function Compta() {
           <h1 className='title-xl text-bold text-white-b300'>Comptabilité générale</h1>
         </div>
       </div>
-      <div className='section section-small'>
-        <div className='container'>
+      <div className='section'>
+        <div className='container container-wheel'>
+          <div className='text-box'>
+            <p className='p-m'>Découvrez notre roue de services, votre passerelle vers une gestion comptable et financière optimale. Explorez les différentes sections en cliquant sur la roue et accédez à une expertise spécialisée dans les domaines clés.</p>
+          </div>
           <div className='rounded-svg'>
             <ReactSVG  src={roundIllustration} alt="" />
           </div>
