@@ -68,7 +68,7 @@ function Compta() {
           <div className='compta-grid-elem-img' style={{backgroundImage : "url(https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1147&q=80)"}}></div>
           <div className='compta-grid-elem-text'>
             <h2 className='title'><span className='text-prusian-blue-b300'>Social</span></h2>
-            <p className='p-m'>Les comptables peuvent aider les entrepreneurs à comprendre les règles et les règlements relatifs aux régimes de sécurité sociale, tels que les régimes de retraite et les régimes d'assurance-maladie. Ils peuvent également aider les entrepreneurs à comprendre les obligations légales liées à l'embauche et à la gestion des employés.</p>
+            <p className='p-m'>Nos experts comptables sont là pour vous accompagner dans la compréhension des règles et réglementations relatives aux régimes de sécurité sociale, tels que les régimes de retraite et les régimes d'assurance-maladie. De plus, ils sont en mesure de vous éclairer sur les obligations légales liées à l'embauche et à la gestion des employés. Faites appel à nos services pour bénéficier de leur expertise et vous assurer d'une gestion efficace et conforme à toutes les exigences.</p>
           </div>
         </div>
         <div className='compta-grid-elem compta-grid-elem-right' id='section6'>
