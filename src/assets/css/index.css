@@ -510,15 +510,27 @@ a.p-xs {
   border: none;
 }
 
-.rounded-svg {
-  width: 50%;
+.container-wheel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.container-wheel .text-box p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.container-wheel .rounded-svg {
+  width: 80%;
   position: relative;
   margin: 0 auto;
   max-width: 500px;
 }
 
-.rounded-svg svg {
+.container-wheel .rounded-svg svg {
   width: 100%;
+  height: auto;
 }
 
 .compta-grid-elem {
@@ -768,6 +780,17 @@ a.p-xs {
   }
   .section-about-second .grid-2 .text-box {
     max-width: 90%;
+  }
+  .container-wheel {
+    grid-template-columns: 1fr;
+    margin: 100px auto;
+  }
+  .container-wheel .text-box {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .container-wheel .rounded-svg {
+    margin-top: 50px;
   }
 }
 
