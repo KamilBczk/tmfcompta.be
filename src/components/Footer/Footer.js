@@ -70,7 +70,7 @@ function Footer() {
               <p className='p-xs'>Steerebeekstraat 154,</p>
             </div>
             <div className='footer-grid-elem'>
-              <p className='p-xs'>Expert Comptable sur Zaventem</p>
+              <p className='p-xs'>Comptable sur Zaventem</p>
             </div>
             <div className='text-center footer-grid-elem responsive-hide'>
               <a className='p-xs' href="/contact">Contact</a>
