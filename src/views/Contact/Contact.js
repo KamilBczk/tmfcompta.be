@@ -103,8 +103,7 @@ function Contact() {
                   height="250"
                   width="100%"
                   loading="lazy"
-                  allowfullscreen
-                  referrerpolicy="no-referrer-when-downgrade"
+                  allowFullScreen={true}
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10070.93994200018!2d4.4855783!3d50.8731058!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3dcacc3b35dad%3A0x3fea5054a36896de!2sTMF%20Compta!5e0!3m2!1sfr!2sbe!4v1682965907037!5m2!1sfr!2sbe">
                 </iframe>
               </div>
@@ -136,7 +135,7 @@ const sendEmail = async (firstName, lastName, mail, number, company, message) =>
   axios.post('https://api.brevo.com/v3/smtp/email', {
     sender: {
         name: 'TMF COMPTA',
-        email: 'admin@kago-group.com'
+        email: 'no-reply@tmfcompta.be'
     },
     to: [{
         email: `${mail}`,
