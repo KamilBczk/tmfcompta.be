@@ -1,11 +1,11 @@
 window.env = {
   "ALLUSERSPROFILE": "C:\\ProgramData",
-  "API_KEY": "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",
+  "API_KEY": "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",
   "APPDATA": "C:\\Users\\arten\\AppData\\Roaming",
   "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
   "ChocolateyLastPathUpdate": "133069648968786698",
   "ChocolateyToolsLocation": "C:\\tools",
-  "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\LOCAL\\crashpad_35288_SPLWEJDPPNBNTADE",
+  "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\LOCAL\\crashpad_14628_XQCRBXGWOHLQTBXA",
   "COLOR": "1",
   "COLORTERM": "truecolor",
   "CommonProgramFiles": "C:\\Program Files\\Common Files",

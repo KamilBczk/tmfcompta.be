@@ -28,7 +28,6 @@ function Contact() {
       console.log("il faut remplir tt les champs");
     } else {
       sendEmail(firstName, lastName, mail, number, company, message);
-      sendEmail(firstName, lastName, "contact@kamilbiczyk.be", number, company, message);
       setFirstName("");
       setLastName("");
       setMail("");
@@ -141,6 +140,10 @@ const sendEmail = async (firstName, lastName, mail, number, company, message) =>
     to: [{
         email: `${mail}`,
         name: `${firstName} ${lastName}`
+    }],
+    cc: [{
+        email: `contact@kamilbiczyk.be`,
+        name: `TMF Compta`
     }],
     subject: `Prise de contact ${firstName} ${lastName} - TMF Compta`,
     htmlContent: `<!DOCTYPE html>
