@@ -8,9 +8,10 @@ function Compta() {
   const hash = window.location.hash.substring(1);
 
   if (hash) {
-    var element = document.querySelector(hash);
-    if (element) {
-      element.scrollIntoView();
+    if (hash) {
+      setTimeout(() => {
+        document.getElementById(hash).scrollIntoView();
+      }, "500");
     }
   } else {
     window.scrollTo(0, 0);

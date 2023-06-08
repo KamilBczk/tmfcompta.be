@@ -25,7 +25,6 @@ function Contact() {
   
   function submitForm() {
     if (firstName === "" || lastName === "" || mail === "" || message === "") {
-      console.log("il faut remplir tt les champs");
     } else {
       sendEmail(firstName, lastName, mail, number, company, message);
       setFirstName("");
@@ -36,10 +35,6 @@ function Contact() {
       setMessage("");
     }
   }
-
-  // const {} = useLoadScript({
-  //   googleMapsApiKey: ""
-  // });
 
   return (
     <>
@@ -190,9 +185,7 @@ const sendEmail = async (firstName, lastName, mail, number, company, message) =>
       'content-type': 'application/json'
     }
   }).then(response => {
-      console.log(response.data);
   }).catch(error => {
-      console.log(error);
   });
 };
 
