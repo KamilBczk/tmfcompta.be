@@ -142,7 +142,7 @@ const sendEmail = async (firstName, lastName, mail, number, company, message) =>
         name: `${firstName} ${lastName}`
     }],
     cc: [{
-        email: `contact@kamilbiczyk.be`,
+        email: `andrei@tmfcompta.be`,
         name: `TMF Compta`
     }],
     subject: `Prise de contact ${firstName} ${lastName} - TMF Compta`,
