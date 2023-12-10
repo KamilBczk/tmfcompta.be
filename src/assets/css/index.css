@@ -60,6 +60,11 @@ html {
   padding: 0;
 }
 
+ul.block {
+  display: block;
+  list-style: disc;
+}
+
 .text-prusian-blue-b300 {
   color: var(--prusian-blue-b300);
 }
@@ -110,6 +115,12 @@ p.p-m {
 }
 
 a.p-m {
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 300;
+}
+
+li.li-m {
   font-size: 25px;
   line-height: 40px;
   font-weight: 300;
@@ -288,6 +299,11 @@ a.p-xs {
   grid-template-columns: 0.6fr 0.4fr;
   grid-row-gap: 0px;
   margin: 0 5%;
+}
+
+.section-home-fourth .grid-2.grid-reverse {
+  padding-top: 100px;
+  grid-template-columns: 0.4fr 0.6fr;
 }
 
 .section-home-fourth .grid-2 .grid-elem:nth-child(1) {
@@ -618,6 +634,9 @@ a.p-xs {
   a.p-m {
     font-size: 20px;
   }
+  li.li-m {
+    font-size: 20px;
+  }
   .carousel-review .carousel-container {
     width: calc(100% / 2);
   }
@@ -884,6 +903,9 @@ a.p-xs {
     font-size: 18px;
   }
   a.p-m {
+    font-size: 18px;
+  }
+  li.li-m {
     font-size: 18px;
   }
   .input-container label {
