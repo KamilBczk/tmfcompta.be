@@ -88,7 +88,7 @@ function Footer() {
               <p className='p-xs text-left'>Réalisation & Head-Admin : <a href="https://kamilbiczyk.be" target='_blank' rel="noreferrer" style={{textDecoration: "underline"}}>Kamil Biczyk</a></p>
             </div>
             <div className='bttomfooter-grid-elem'>
-              <p className='p-xs text-center'>TMF COMPTA © 2023</p>
+              <p className='p-xs text-center'>TMF COMPTA © 2023 - 2024</p>
             </div>
             <div className='bttomfooter-grid-elem'>
               <p className='p-xs text-right'><a href="/" style={{textDecoration: "underline"}}>Mentions légales</a></p>
