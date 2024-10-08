@@ -116,7 +116,7 @@ function Home() {
     <>
       <div>
         <Helmet>
-          <title>TMF Comtpa | Accueil</title>
+          <title>TMF Compta | Accueil</title>
         </Helmet>
       </div>
       <div className="section first-home-section">
